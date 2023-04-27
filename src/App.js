@@ -1,9 +1,12 @@
 import React from 'react';
-import { Calculator } from './components';
+import { Calculator, Quotes } from './components';
 
 function App() {
   return (
-    <Calculator />
+    <>
+      <Quotes />
+      <Calculator />
+    </>
   );
 }
 
