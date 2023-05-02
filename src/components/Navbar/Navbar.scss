@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 15px 90px;
+  background-color: rgb(199, 205, 205);
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}

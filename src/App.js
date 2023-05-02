@@ -1,12 +1,14 @@
 import React from 'react';
-import { Calculator, Quotes } from './components';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Layout } from './components';
 
 function App() {
   return (
-    <>
-      <Quotes />
-      <Calculator />
-    </>
+    <React.StrictMode>
+      <Router>
+        <Layout />
+      </Router>
+    </React.StrictMode>
   );
 }
 

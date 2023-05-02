@@ -1,0 +1,18 @@
+.home-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  justify-content: space-between;
+}
+
+.home-head {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.home-desc {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 60%;
+  font-size: 25px;
+}
