@@ -7,7 +7,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -54,9 +54,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+<!--
 ## 🚀 Live Demo <a name="live-demo"></a>
-### Coming Soon
+### Coming Soon -->
 
 <!-- GETTING STARTED -->
 
@@ -201,9 +201,8 @@ Feel free to check the [issues page](https://github.com/MarwanDev/Math-Magicians
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
