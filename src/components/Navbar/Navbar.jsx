@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo-container">
-        <h2>Math Magicians</h2>
+        <a className="logo" href="/">Math Magicians</a>
       </div>
       <ul className="links-container">
         {[{
@@ -26,7 +26,7 @@ function Navbar() {
         },
         ].map((link) => (
           <li key={link.id}>
-            <NavLink to={link.path}>{link.text}</NavLink>
+            <NavLink className="nav-link" to={link.path}>{link.text}</NavLink>
           </li>
         ))}
       </ul>

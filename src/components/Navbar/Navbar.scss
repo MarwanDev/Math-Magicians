@@ -1,14 +1,43 @@
+$primary-color: rgb(199, 205, 205);
+
 nav {
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: 55px;
   padding: 15px 90px;
-  background-color: rgb(199, 205, 205);
+  background-color: $primary-color;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: fantasy, sans-serif;
+  font-size: 26px;
+  background-color: $primary-color;
+  color: rgb(75, 73, 73);
+}
+
+.logo:hover {
+  color: rgb(55, 55, 230);
+  transition: 0.4s;
 }
 
 .links-container {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  gap: 10px;
+  gap: 18px;
+  background-color: $primary-color;
+}
+
+.nav-link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(79, 77, 77);
+  background-color: $primary-color;
+}
+
+.nav-link:hover {
+  color: rgb(55, 55, 230);
+  transition: 0.3s;
 }
